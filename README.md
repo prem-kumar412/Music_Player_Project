@@ -27,7 +27,6 @@ Install todolist-coding-ninjas with git or install zipcode
 
 ```bash
 https://github.com/prem-kumar412/Music_Player_Project.git
-  cd Music-Player-Coding-Ninjas
 ```
     
 ## Deployment
