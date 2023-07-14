@@ -3,8 +3,8 @@ Deployment
 To deploy this project run
 
   Open Index.html file in your browser.
-**Demo**
+**Demo** 
 Live Demo https://imsahadeb.github.io/Music-Player-Coding-Ninjas
 
-**Authors**
+**Authors**                                   
 @prem-kumar
