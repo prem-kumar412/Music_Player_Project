@@ -8,12 +8,15 @@
     <link rel="icon" href="media/website_logo.jpg">
 
     <!-- it is connected to two stylesheets -->
-    <link rel="stylesheet" type="text/css" href="Single Playlist Screen Styles.css"><!-- this is the main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="Single Playlist Screen Styles.css">
+    <!-- this is the main stylesheet -->
     <!-- desktop first approach is used for the same. -->
     <link rel="stylesheet" type="text/css" href="Secondary page.css">
     <!-- this is the style sheet with all the media queries -->
     <!-- this script is just for font awesome fonts -->
-    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script> -->
 </head>
 <!-- body -->
 
@@ -27,7 +30,9 @@
             </div>
             <div class="website-name">
                 <h2>
-                    <a href="main page.html">
+                    <!-- linking to index page -->
+                    <a href="index page.html">
+                        
                         PREM
                     </a>
                 </h2>
@@ -47,7 +52,7 @@
                 <!-- magnifying glass- search icon -->
                 <i class="fas fa-search search-ico"></i>
             </div>
-            <input type="text" name="search" placeholder="Search">
+            <input type="text" name="search" placeholder="Search a Song">
             <div>
                 <!-- mic icon -->
                 <i class="fas fa-microphone mic-ico"></i>
@@ -55,7 +60,7 @@
         </div>
         <!-- this is for notification bell -->
         <div class="notification-bell">
-            <img src="media/bell_icon.jpg"> 
+            <img src="media/bell_icon.jpg">
 
         </div>
         <!-- this is for profile picture -->
@@ -86,23 +91,21 @@
                         <p class="author">Indian Band</p>
                         <!-- short description of the current author -->
                         <p class="desc">
-                             first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay <br>
-                            By PREM music player <br>
-                            12 songs|0 Downloaded
+                            first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay <br> By PREM music player <br> 12 songs|0 Downloaded
                         </p>
                     </div>
                     <!-- action part -->
                     <div class="action-part">
                         <!-- action buttons -->
                         <div class="btns">
-                        
+
                             <button>Play All</button>
                         </div>
 
-                             <div class="action-part">
+                        <div class="action-part">
                             <button>Follow +</button>
                         </div>
-                    
+
                         <p>
                             247 Tracks | 128 Albums
                         </p>
@@ -137,7 +140,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon1" class="far fa-heart icon" onclick="toggleIcon1()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -161,7 +164,7 @@
                                 Peaches
                             </h5>
                             <p>
-                                Justin ieber
+                                Justin Bieber
                             </p>
                         </div>
                     </div>
@@ -170,7 +173,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon2" class="far fa-heart icon" onclick="toggleIcon2()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -191,7 +194,7 @@
                         </div>
                         <div>
                             <h5>
-                                Clam Down
+                                Calm Down
                             </h5>
                             <p>
                                 Rema,Selena Gomez
@@ -203,7 +206,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon3" class="far fa-heart icon" onclick="toggleIcon3()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -227,7 +230,7 @@
                                 Hey Mama
                             </h5>
                             <p>
-                                Davi Guetta
+                                David Guetta
                             </p>
                         </div>
                     </div>
@@ -236,7 +239,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon4" class="far fa-heart icon" onclick="toggleIcon4()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -269,7 +272,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon5" class="far fa-heart icon" onclick="toggleIcon5()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -302,7 +305,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon6" class="far fa-heart icon" onclick="toggleIcon6()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -335,7 +338,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon7" class="far fa-heart icon" onclick="toggleIcon7()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -356,7 +359,7 @@
                         </div>
                         <div>
                             <h5>
-                                Senorita
+                                Señorita
                             </h5>
                             <p>
                                 Shawn Mendes
@@ -368,7 +371,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon8" class="far fa-heart icon" onclick="toggleIcon8()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -401,7 +404,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon9" class="far fa-heart icon" onclick="toggleIcon9()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -434,7 +437,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon10" class="far fa-heart icon" onclick="toggleIcon10()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -467,7 +470,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon11" class="far fa-heart icon" onclick="toggleIcon11()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -500,7 +503,7 @@
                     </div>
                     <div class="right">
                         <div>
-                            <i class="far fa-heart"></i>
+                            <i id="icon12" class="far fa-heart icon" onclick="toggleIcon12()"></i>
                         </div>
                         <div>
                             <i class="fas fa-plus"></i>
@@ -545,7 +548,7 @@
                         </div>
                         <div style="position: absolute; left:120px;">
                             <h5>
-                                I Love you 
+                                I Love you
                             </h5>
                             <p class="author-name">
                                 Ash King
@@ -648,7 +651,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon13" class="far fa-heart icon" onclick="toggleIcon13()"></i>
                                 </div>
                             </div>
                         </div>
@@ -675,7 +678,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon14" class="far fa-heart icon" onclick="toggleIcon14()"></i>
                                 </div>
                             </div>
                         </div>
@@ -696,13 +699,13 @@
                                         Singgara Siriye
                                     </h5>
                                     <p>
-                                        Rishab 
+                                        Rishab
                                     </p>
                                 </div>
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon15" class="far fa-heart icon" onclick="toggleIcon15()"></i>
                                 </div>
                             </div>
                         </div>
@@ -729,7 +732,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon16" class="far fa-heart icon" onclick="toggleIcon16()"></i>
                                 </div>
                             </div>
                         </div>
@@ -750,13 +753,13 @@
                                         hey mama
                                     </h5>
                                     <p>
-                                        Davi Gutta
+                                        David Gutta
                                     </p>
                                 </div>
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon17" class="far fa-heart icon" onclick="toggleIcon17()"></i>
                                 </div>
                             </div>
                         </div>
@@ -783,7 +786,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon18" class="far fa-heart icon" onclick="toggleIcon18()"></i>
                                 </div>
                             </div>
                         </div>
@@ -810,7 +813,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon19" class="far fa-heart icon" onclick="toggleIcon19()"></i>
                                 </div>
                             </div>
                         </div>
@@ -837,7 +840,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon20" class="far fa-heart icon" onclick="toggleIcon20()"></i>
                                 </div>
                             </div>
                         </div>
@@ -864,7 +867,7 @@
                             </div>
                             <div class="right">
                                 <div>
-                                    <i class="far fa-heart"></i>
+                                    <i id="icon21" class="far fa-heart icon" onclick="toggleIcon21()"></i>
                                 </div>
                             </div>
                         </div>
@@ -895,10 +898,10 @@
                     Post Malone
                 </div>
             </div>
-                <!-- heart icon and ban icon -->
+            <!-- heart icon and ban icon -->
             <div class="heart-and-ban-icon">
                 <span>
-                    <i class="far fa-heart"></i>
+                    <i id="icon22" class="far fa-heart icon" onclick="toggleIcon22()"></i>
                 </span>
                 <span>
                     <i class="fas fa-ban"></i>
@@ -948,6 +951,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
