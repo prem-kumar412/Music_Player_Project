@@ -7,4 +7,4 @@ To deploy this project run
 Live Demo https://imsahadeb.github.io/Music-Player-Coding-Ninjas
 
 **Authors**                                   
-@prem-kumar
+@ prem-kumar
