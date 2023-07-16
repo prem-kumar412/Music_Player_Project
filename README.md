@@ -1,6 +1,5 @@
 In this project I created the front-end design of a music player in HTML and CSS. This is a part of project during Carear Camp Course in Coding Ninjas.
 
-
 ## Features
 
 - Infinite Scroll
@@ -41,8 +40,7 @@ To deploy this project run
 ## Demo
 
 Live Demo
-https://prem-kumar412.github.io/Music_Player_Project/
-
+https://elaborate-centaur-405bc8.netlify.app/
 ## Authors
 
 - [@PREM KUMAR](https://github.com/prem-kumar412)
