@@ -17,7 +17,7 @@ In this project I created the front-end design of a music player in HTML and CSS
 ## Lessons Learned
 This help me to understand the use case of HTML and CSS and build strong concept on Front end Web Development.
 
-<code>Learned concept of flex box and use then in our project to give beautifull responsive design.</code>
+Learned concept of flex box and use then in our project to give beautifull responsive design.
 
 ## Installation
 
